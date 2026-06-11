@@ -11,6 +11,12 @@ public class HelloController {
         return "Spring Boot app deployment using gitHub,Jenkins,Docker and Ec2 instance";
     }
 
+    @GetMapping("/profile")
+    public String profile(){
+        return "this is profile endpoint";
+    }
+
+
     @GetMapping("/health")
     public String health(){
         return "app is healthy";
