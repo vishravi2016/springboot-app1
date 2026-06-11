@@ -8,7 +8,7 @@ public class HelloController {
 
     @GetMapping("/")
     public String home(){
-        return "Spring Boot app deployment using gitHub,Jenkins,Docker and Ec2";
+        return "Spring Boot app deployment using gitHub,Jenkins,Docker and Ec2 instance";
     }
 
     @GetMapping("/health")
